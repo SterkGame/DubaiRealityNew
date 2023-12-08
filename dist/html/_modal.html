@@ -1,0 +1,57 @@
+<div class="modal-window is__hidden" data-modal>
+	<div class="modal__content">
+		<button class="close__button" data-modal-close="#modal-window">
+			<svg class="icon" width="18" height="18">
+				<use xlink:href="images/icons.svg#icon-close"></use>
+			</svg>
+		</button>
+		<h2 class="modal__header">Залиште свої дані, ми вам передзвонимо</h2>
+		<form class="modal__form">
+			<ul class="modal__list">
+				<li class="modal__item">
+					<label class="modal__label" for="modal-input-name">Ім'я</label>
+					<div class="input__container">
+						<input class="modal__input" id="modal-input-name" type="text" name="name">
+						<svg class="modal__icon" width="18" height="18">
+							<use xlink:href="images/icons.svg#icon-person"></use>
+						</svg>
+					</div>
+				</li>
+				<li class="modal__item">
+					<label class="modal__label" for="modal-input-phone">Телефон</label>
+					<div class="input__container">
+						<input class="modal__input" id="modal-input-name" type="tel" name="phone_number">
+						<svg class="modal__icon" width="18" height="18">
+							<use xlink:href="images/icons.svg#icon-phone-bl"></use>
+						</svg>
+					</div>
+				</li>
+				<li class="modal__item">
+					<label class="modal__label" for="modal-input-email">Пошта</label>
+					<div class="input__container">
+						<input class="modal__input" id="modal-input-name" type="email" name="email">
+						<svg class="modal__icon" width="18" height="18">
+							<use xlink:href="images/icons.svg#icon-email-bl"></use>
+						</svg>
+					</div>
+				</li>
+				<li class="modal__item">
+					<label class="modal__label" for="modal-input-coment">Коментар</label>
+					<textarea class="modal__coment" name="coment" id="modal-input-name" cols="30" rows="10" placeholder="Введіть текст"></textarea>
+				</li>
+			</ul>
+			<label class="modal__agree" for="agree-check">
+				<input class="modal__check visually__hidden" type="checkbox" name="agree" id="agree-check" />
+				<div class="custom__check">
+					<svg class="modal_check_active" width="16" height="15">
+						<use xlink:href="images/icons.svg#icon-icon-check"></use>
+					</svg>
+				</div>
+				<span class="modal_agree_text">Погоджуюся з розсилкою та приймаю
+					<a href="#" class="modal__contract">Умови договору</a>
+				</span>
+			</label>
+			<button type="submit" class="main__button">Відправити</button>
+		</form>
+	</div>
+</div>
