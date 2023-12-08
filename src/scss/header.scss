@@ -1,0 +1,181 @@
+//====================================================================================================
+
+//====================================================================================================
+
+//Burger
+/*
+.icon-menu {
+	display: none;
+	@media (max-width: $mobile) {
+		display: block;
+		position: relative;
+		width: 30px;
+		height: 18px;
+		cursor: pointer;
+		z-index: 5;
+		span,
+		&::before,
+		&::after {
+			content: "";
+			transition: all 0.3s ease 0s;
+			left: 0px;
+			position: absolute;
+			width: 100%;
+			height: 2px;
+			background-color: #000;
+		}
+		&::before {
+			top: 0px;
+		}
+		&::after {
+			bottom: 0px;
+		}
+		span {
+			top: calc(50% - 1px);
+		}
+		.menu-open & {
+			span {
+				transform: scale(0);
+			}
+			&::before {
+				transform: rotate(-45deg);
+				top: calc(50% - 1px);
+			}
+			&::after {
+				transform: rotate(45deg);
+				bottom: calc(50% - 1px);
+			}
+		}
+	}
+}
+*/
+
+
+.navigation {
+	display: flex;
+	align-items: center;
+	height: 109px;
+}
+
+.logo__header {
+	display: flex;
+	flex-direction: column;
+	margin-right: 100px;
+}
+
+.logo__link {
+	position: relative;
+	border-left: solid 2px #FCD54C;
+	padding: 10px 0 15px 15px;
+}
+
+.logo__link::before {
+	content: '';
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	border-bottom: solid 2px #FCD54C;
+	width: 40px;
+}
+
+.logo__link::after {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	border-top: solid 2px #FCD54C;
+	width: 40px;
+}
+
+.logo__main {
+	color: #FFF;
+	font-family: Poppins;
+	font-size: 28px;
+	font-weight: 700;
+}
+
+.logo__second {
+	color: #FFF;
+	font-family: Work Sans;
+	font-size: 11px;
+	font-weight: 400;
+}
+
+.navigation__list {
+	display: flex;
+	gap: 50px;
+}
+
+.navigation__item {
+	color: #FFF;
+	position: relative;
+	font-family: Poppins;
+	font-size: 14px;
+	font-weight: 600;
+	text-transform: uppercase;
+	transition: color 250ms ease;
+}
+
+.navigation__item:hover,
+.navigation__item:focus {
+	color: #FCD54C;
+}
+
+.navigation__list .navigation__item::after {
+	content: "";
+	position: absolute;
+	bottom: -4px;
+	left: 0;
+	background: transparent;
+	width: 100%;
+	height: 2px;
+	transition: background 250ms ease;
+}
+
+.navigation__list .navigation__item:hover::after {
+	background: #FCD54C
+}
+
+.contact__menu {
+	display: flex;
+	align-items: center;
+	margin-left: auto;
+}
+
+.contact__button {
+	display: inline;
+	margin-right: 100px;
+	padding: 12px 14px;
+	background: #FCD54C;
+	font-family: Work Sans;
+	font-size: 14px;
+	font-weight: 600;
+	transition: background-color 250ms ease;
+
+	&:hover,
+	&:focus {
+		background-color:#ecbc0d;
+	}
+}
+
+.contact__phone {
+	color: #FFF;
+	font-family: Poppins;
+	font-size: 16px;
+	font-weight: 600;
+	transition: color 250ms ease;
+
+	&:hover,
+	&:focus {
+		color: #FCD54C;
+	}
+
+}
+
+.contact__menu {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
