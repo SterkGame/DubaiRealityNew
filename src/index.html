@@ -3,7 +3,7 @@
 @@include('html/_head.htm',{
 "title":"Главная"
 })
-
+<script type="text/javascript" src="/mailer.js"></script>
 <body>
 	<div class="wrapper">
 		@@include('html/_header.htm',{})
@@ -257,11 +257,11 @@
 						<div class="contact-us__bg">
 							<p class="contact-us__ask">Do you have any questions?</p>
 							<h2 class="contact-us__header">Contact us</h2>
-							<form class="contact-us__form">
+							<form id="contact_us" class="contact-us__form">
 								<label class="contact-us__label" for="contact-us__input"></label>
 								<input class="contact-us__input" id="contact-us__input" type="email"
 									placeholder="Enter your mail">
-								<button class="contact-us__button" type="submit">Send</button>
+								<button class="contact-us__button" type="submit" onclick="sendMail()">Send</button>
 							</form>
 						</div>
 					</div>
