@@ -1,0 +1,718 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<title>Главная</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20231216091109">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<!-- <script type="text/javascript" src="/mailer.js?_v=20231216091109"></script> -->
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__container">
+				<div class="logo logo__header">
+					<a href="#" class="logo__link">
+						<p class="logo__main">
+							DubaiReality
+						</p>
+						<p class="logo__second">
+							Real Estate
+						</p>
+					</a>
+				</div>
+				<div class="header__menu menu">
+					<button type="button" class="menu__icon icon-menu"><span></span></button>
+					<div class="menu__body">
+						<ul class="menu__list">
+							<li class="menu__item"><a href="#latest" class="menu__link link1">Latest projects</a></li>
+							<li class="menu__item"><a href="#useful" class="menu__link link2">Useful articles</a></li>
+							<li class="menu__item"><a href="#faq" class="menu__link link3">FAQ</a></li>
+						</ul>
+
+						<div class="menu__line">
+							<button type="button" class="contact__button menu_contact_button" id="data-popup" data-modal-open-menu="#modal-window">Book a consultation</button>
+							<a class="contact__phone" href="tel:">+38 (068) 88-88-888</a>
+						</div>
+					</div>
+				</div>
+				<nav class="navigation__menu">
+					<ul class="navigation__list">
+						<li class="navigation__item"><a href="#latest">Latest projects</a></li>
+						<li class="navigation__item"><a href="#useful">Useful articles</a></li>
+						<li class="navigation__item"><a href="#faq">FAQ</a></li>
+					</ul>
+				</nav>
+				<div class="contact__menu">
+					<button type="button" class="contact__button " id="data-popup" data-modal-open="#modal-window">Book a
+						consultation</button>
+					<a class="contact__phone" href="tel:">+38 (068) 88-88-888</a>
+				</div>
+			</div>
+
+			<!-- ============================================================================ -->
+
+			<div class="modal-window is__hidden" data-modal>
+				<div class="modal__content">
+					<a href="" class="modal__close" data-modal-close="#modal-window">
+						<svg class="faq__icon" width="30" height="30">
+							<use xlink:href="img/icons.svg#icon-Cross"></use>
+						</svg>
+					</a>
+					<h2 class="modal__header">Leave your contacts</h2>
+					<p class="modal__text">we will contact you within three hours</p>
+					<form class="modal__form">
+						<label class="modal__label" for="modal_1">
+							<input class="modal__input" id="modal_1" type="text" placeholder="Name">
+						</label>
+						<label class="modal__label" for="modal_2">
+							<input class="modal__input" id="modal_2" type="text" placeholder="Phone">
+						</label>
+						<button class="modal__button" type="submit">Send</button>
+					</form>
+				</div>
+			</div>
+		</header>
+		<main class="page">
+			<div class="page__container">
+				<section class="main__section">
+					<div class="container">
+						<div class="main__block">
+							<ul class="social main__contact">
+								<li class="contact__item">
+									<a class="contact__href" href="#">
+										<svg class="icon" width="20" height="20">
+											<use xlink:href="img/icons.svg#icon-instagram"></use>
+										</svg>
+									</a>
+								</li>
+								<li class="contact__item">
+									<a class="contact__href" href="#">
+										<svg class="icon" width="20" height="20">
+											<use xlink:href="img/icons.svg#icon-twitter"></use>
+										</svg>
+									</a>
+								</li>
+								<li class="contact__item">
+									<a class="contact__href" href="#">
+										<svg class="icon" width="20" height="20">
+											<use xlink:href="img/icons.svg#icon-facebook"></use>
+										</svg>
+									</a>
+								</li>
+								<li class="contact__item">
+									<a class="contact__href" href="#">
+										<svg class="icon" width="20" height="20">
+											<use xlink:href="img/icons.svg#icon-linkedin"></use>
+										</svg>
+									</a>
+								</li>
+							</ul>
+							<div class="main__padding">
+								<div class="main__title">
+									<p class="main__bef">Lorem ipsum</p>
+									<h1 class="main__header">
+										Welcome home <span class="main__yellow">to</span> luxury
+									</h1>
+									<p class="main__aft">Book a consultation</p>
+								</div>
+							</div>
+							<ul class="main__numbers">
+								<li class="number__list">
+									<p class="number__element">01</p>
+									<p class="number__text">Lorem Ipsum Dolorem apset</p>
+								</li>
+								<li class="number__list">
+									<p class="number__element">02</p>
+									<p class="number__text">Lorem Ipsum Dolorem apset</p>
+								</li>
+								<li class="number__list">
+									<p class="number__element">03</p>
+									<p class="number__text">Lorem Ipsum Dolorem apset</p>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</section>
+				<section class="latest__section" id="latest">
+					<div class="container">
+						<h2 class="second__header">Latest projects</h2>
+						<div class="photo__slider">
+							<div class="photo__swiper">
+								<div class="photo__slide">
+									<a href="##" class="photo__link">
+										<picture><source srcset="img/image1.1.webp" type="image/webp"><img src="img/image1.1.jpg" alt="Architecture" width="430" height="572"></picture>
+										<div class="photo__text">Villas</div>
+										<div class="photo__overlay">
+											<div class="photo_overlay_title">Villas</div>
+											<p class="photo_overlay_text">
+												Lorem ipsum dolor sit amet, consectetur adipiscing
+												elit. Consequat molestie integer aliquam consectetur. Faucibus vitae dui
+												massa
+												tellus magna sit.
+											</p>
+											<div href="#" class="photo_overlay_link">See project ></div>
+										</div>
+									</a>
+								</div>
+								<div class="photo__slide">
+									<a href="##" class="photo__link">
+										<picture><source srcset="img/image1.2.webp" type="image/webp"><img src="img/image1.2.jpg" alt="Architecture" width="430" height="572"></picture>
+										<div class="photo__text">Dubai</div>
+										<div class="photo__overlay">
+											<div class="photo_overlay_title">Dubai</div>
+											<p class="photo_overlay_text">
+												Lorem ipsum dolor sit amet, consectetur adipiscing
+												elit. Consequat molestie integer aliquam consectetur. Faucibus vitae dui
+												massa
+												tellus magna sit.
+											</p>
+											<div href="#" class="photo_overlay_link">See project ></div>
+										</div>
+									</a>
+								</div>
+								<div class="photo__slide">
+									<a href="##" class="photo__link">
+										<picture><source srcset="img/image1.3.webp" type="image/webp"><img src="img/image1.3.jpg" alt="Architecture" width="430" height="572"></picture>
+										<div class="photo__text">Houses</div>
+										<div class="photo__overlay">
+											<div class="photo_overlay_title">Houses</div>
+											<p class="photo_overlay_text">
+												Lorem ipsum dolor sit amet, consectetur adipiscing
+												elit. Consequat molestie integer aliquam consectetur. Faucibus vitae dui
+												massa
+												tellus magna sit.
+											</p>
+											<div href="#" class="photo_overlay_link">See project ></div>
+										</div>
+									</a>
+								</div>
+								<div class="photo__slide">
+									<a href="##" class="photo__link">
+										<picture><source srcset="img/image1.4.webp" type="image/webp"><img src="img/image1.4.jpg" alt="Architecture" width="430" height="572"></picture>
+										<div class="photo__text">Villas</div>
+										<div class="photo__overlay">
+											<div class="photo_overlay_title">Villas</div>
+											<p class="photo_overlay_text">
+												Lorem ipsum dolor sit amet, consectetur adipiscing
+												elit. Consequat molestie integer aliquam consectetur. Faucibus vitae dui
+												massa
+												tellus magna sit.
+											</p>
+											<div href="#" class="photo_overlay_link">See project ></div>
+										</div>
+									</a>
+								</div>
+								<div class="photo__slide">
+									<a href="##" class="photo__link">
+										<picture><source srcset="img/image1.5.webp" type="image/webp"><img src="img/image1.5.jpg" alt="Architecture" width="430" height="572"></picture>
+										<div class="photo__text">Swimming pool</div>
+										<div class="photo__overlay">
+											<div class="photo_overlay_title">Swimming pool</div>
+											<p class="photo_overlay_text">
+												Lorem ipsum dolor sit amet, consectetur adipiscing
+												elit. Consequat molestie integer aliquam consectetur. Faucibus vitae dui
+												massa
+												tellus magna sit.
+											</p>
+											<div href="#" class="photo_overlay_link">See project ></div>
+										</div>
+									</a>
+								</div>
+								<div class="photo__slide">
+									<a href="##" class="photo__link">
+										<picture><source srcset="img/image1.6.webp" type="image/webp"><img src="img/image1.6.jpg" alt="Architecture" width="430" height="572"></picture>
+										<div class="photo__text">Lake</div>
+										<div class="photo__overlay">
+											<div class="photo_overlay_title">Lake</div>
+											<p class="photo_overlay_text">
+												Lorem ipsum dolor sit amet, consectetur adipiscing
+												elit. Consequat molestie integer aliquam consectetur. Faucibus vitae dui
+												massa
+												tellus magna sit.
+											</p>
+											<div href="#" class="photo_overlay_link">See project ></div>
+										</div>
+									</a>
+								</div>
+							</div>
+							<div class="slider-quality__pagging pagging-center"></div>
+						</div>
+				</section>
+				<section class="apartment__section">
+					<div class="apartment">
+						<div class="apartment__block">
+							<p class="mini_yellow_text">Our expertise</p>
+							<h2 class="apartment__header">"The best apartment in Dubai" we will find your dream</h2>
+							<p class="apartment__text">
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse nibh massa,
+								euismod
+								ut libero id, blandit posuere augue. Morbi porta volutpat diam egestas ultrices.
+								Phasellus tempus fringilla neque, nec viverra orci tristique vel. In efficitur
+								vehicula
+								magna, varius pellentesque nisl vehicula vel. Aenean vel sem ac elit commodo finibus
+								in
+								nec massa. Nulla facilisi. Nulla vestibulum venenatis sollicitudin. Etiam auctor
+								mollis
+								justo eu tincidunt. Aliquam varius varius tortor. Cras id venenatis sem. Quisque ut
+								risus ex. Sed et tempor massa. Praesent ac eros hendrerit, congue justo ac, molestie
+								urna. Fusce nec neque vitae dolor dapibus elementum. Maecenas nec orci quis sem
+								condimentum dapibus varius a lorem. Lorem ipsum dolor sit amet, consectetur
+								adipiscing
+								elit.
+							</p>
+						</div>
+					</div>
+
+					<div class="video">
+						<iframe class="video__frame" width="1800" height="793" src="https://www.youtube.com/embed/IdejM6wCkxA" title="Dubai" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+						<!-- <video  width="1800" height="900" controls>
+								<source src="/simg/Dubai__video.mp4" type="video/mp4">
+							</video> -->
+					</div>
+				</section>
+				<section class="hous__section">
+					<div class="text_border_block">
+						<p class="text__border">
+							“Don’t limit yourself. Many people limit themselves to what they think they can do. You
+							can go as far as your mind lets you. What you believe, remember, you can achieve.”
+							<span class="text_border_yellow"> — Mary Kay Ash</span>
+						</p>
+					</div>
+					<div class="hous__block">
+						<div class="hous__card">
+							<div>
+								<picture><source srcset="img/image2.1.webp" type="image/webp"><img class="hous__photo" src="img/image2.1.jpg" alt="Architecture" width="543"></picture>
+							</div>
+							<p class="hous__text">
+								Sed in sem pellentesque, eleifend erat vitae, tincidunt turpis. Pellentesque augue
+								elit, rutrum sit amet commodo vel, porta quis purus. Nullam faucibus, odio eu
+								bibendum auctor, eros dolor aliquet purus, sit amet pellentesque neque est id
+								tortor. In egestas, erat a dapibus dapibus, mi augue ornare lorem, nec pretium
+								ligula purus nec tellus. Aenean a scelerisque nisi. Nullam pretium fermentum nunc,
+								feugiat placerat urna rutrum eget. Nullam mattis justo consequat risus. Donec
+								imperdiet enim id efficitur pharetra. Nam sollicitudin at est eget auctor. Ut sed
+								ante quis nulla tincidunt auctor. Quisque accumsan pretium tincidunt. Etiam viverra
+								ultrices est vitae suscipit. Pellentesque elementum purus non nisl pharetra
+								consequat. Nunc in venenatis orci.
+							</p>
+						</div>
+						<div class="hous__card">
+							<div>
+								<picture><source srcset="img/image2.2.webp" type="image/webp"><img class="hous__photo" src="img/image2.2.jpg" alt="Architecture" width="543"></picture>
+							</div>
+							<p class="hous__text">
+								Vivamus non diam vel lorem efficitur mattis in gravida ante. Ut ullamcorper dapibus
+								ante, eu tincidunt orci feugiat vel. Curabitur eget lectus lectus. Pellentesque
+								malesuada, felis at accumsan interdum, nisl mi fermentum est, eu suscipit dui lorem
+								a dui. Aliquam rhoncus risus in leo vestibulum efficitur. Suspendisse tortor quam,
+								faucibus a lacinia a, bibendum vitae quam. Suspen disse et metus et orci rutrum
+								dictum eu eu nibh. Suspendisse blandit in diam in rhoncus. Nam volutpat hendrerit
+								enim, sed aliquet quam gravida at. Nullam dictum sagittis nisi, eu porta sem mollis
+								eu. Nulla faucibus sed ipsum sed sodales. Curabitur varius iaculis felis, in aliquet
+								sem suscipit quis. Ut vulputate, magna ac bibendum elementum, nulla magna tincidunt
+								urna, a venenatis dolor arcu sed leo.
+							</p>
+						</div>
+					</div>
+			</div>
+			</section>
+			<section class="contact-us__section">
+				<div class="container">
+					<div class="contact-us__bg">
+						<p class="contact-us__ask">Do you have any questions?</p>
+						<h2 class="contact-us__header">Contact us</h2>
+						<form id="form" class="contact-us__form">
+							<label class="contact-us__label" for="contact-us__input"></label>
+							<input class="contact-us__input" name="email" id="contact-us__input" type="email" placeholder="Enter your mail">
+							<button class="contact-us__button" id="send-button" type="submit">Send</button>
+
+						</form>
+					</div>
+				</div>
+			</section>
+			<section class="useful__section" id="useful">
+				<div class="container">
+					<h2 class="useful__header">Useful articles</h2>
+					<ul class="useful__list">
+						<li class="useful__item">
+							<div class="flip__card">
+								<div class="flip_card_inner">
+									<div class="flip_card_front">
+										<picture><source srcset="img/image3.1.webp" type="image/webp"><img class="flip_card_photo" src="img/image3.1.jpg" alt="Architecture" width="350"></picture>
+										<div class="useful__text">Discover Architecture</div>
+									</div>
+									<div class="flip_card_back overlay">
+										<div class="overlay__date">Jule 03, 2022</div>
+										<div class="overlay__title">Discover Architecture</div>
+										<p class="overlay__text">Projects for many large domestic and foreign
+											corporations,
+											enterprises in many elds such</p>
+										<div class="overlay__link">Learn more ></div>
+									</div>
+								</div>
+							</div>
+						</li>
+						<li class="useful__item">
+							<div class="flip__card">
+								<div class="flip_card_inner">
+									<div class="flip_card_front">
+										<picture><source srcset="img/image3.2.webp" type="image/webp"><img class="flip_card_photo" src="img/image3.2.jpg" alt="Architectur" width="350"></picture>
+										<div class="useful__text">Discover Architecture</div>
+									</div>
+									<div class="flip_card_back overlay">
+										<div class="overlay__date">Jule 03, 2022</div>
+										<div class="overlay__title">Discover Architecture</div>
+										<p class="overlay__text">Projects for many large domestic and foreign
+											corporations,
+											enterprises in many elds such</p>
+										<div class="overlay__link">Learn more ></div>
+									</div>
+								</div>
+							</div>
+						</li>
+						<li class="useful__item">
+							<div class="flip__card">
+								<div class="flip_card_inner">
+									<div class="flip_card_front">
+										<picture><source srcset="img/image3.3.webp" type="image/webp"><img class="flip_card_photo" src="img/image3.3.jpg" alt="Architectur" width="350"></picture>
+										<div class="useful__text">Discover Architecture</div>
+									</div>
+									<div class="flip_card_back overlay">
+										<div class="overlay__date">Jule 03, 2022</div>
+										<div class="overlay__title">Discover Architecture</div>
+										<p class="overlay__text">Projects for many large domestic and foreign
+											corporations,
+											enterprises in many elds such</p>
+										<div class="overlay__link">Learn more ></div>
+									</div>
+								</div>
+							</div>
+						</li>
+					</ul>
+			</section>
+			<section class="people">
+				<div class="container">
+					<div class="people__slider">
+						<div class="people__swiper">
+							<div class="people__slide">
+								<a href="#" class="people__link">
+									<picture><source srcset="img/avatar2.webp" type="image/webp"><img class="people__img" src="img/avatar2.jpg" alt="People"></picture>
+									<div class="people__text">
+										<p class="people__logo">„</p>
+										<p class="people__name">Robert</p>
+										<p class="people__job">Founder in Apple inc.</p>
+										<p class="people__disc">
+											Founded in 2007, Sparch is specializing in providing innovative services
+											such as
+											website design, brand identity and marketing
+										</p>
+									</div>
+								</a>
+							</div>
+							<div class="people__slide">
+								<a href="#" class="people__link">
+									<picture><source srcset="img/avatar1.webp" type="image/webp"><img class="people__img" src="img/avatar1.jpg" alt="People"></picture>
+									<div class="people__text">
+										<p class="people__logo">„</p>
+										<p class="people__name">Paul</p>
+										<p class="people__job">Owner in Paul.com</p>
+										<p class="people__disc">
+											Projects for many large domestic and foreign corporations, enterprises
+											in
+											many
+											elds such as nance, banking, F&B, education, communication.
+										</p>
+									</div>
+								</a>
+							</div>
+							<div class="people__slide">
+								<a href="#" class="people__link">
+									<picture><source srcset="img/avatar2.webp" type="image/webp"><img class="people__img" src="img/avatar2.jpg" alt="People"></picture>
+									<div class="people__text">
+										<p class="people__logo">„</p>
+										<p class="people__name">Robert</p>
+										<p class="people__job">Founder in Apple inc.</p>
+										<p class="people__disc">
+											Founded in 2007, Sparch is specializing in providing innovative services
+											such as
+											website design, brand identity and marketing
+										</p>
+									</div>
+								</a>
+							</div>
+							<div class="people__slide">
+								<a href="#" class="people__link">
+									<picture><source srcset="img/avatar1.webp" type="image/webp"><img class="people__img" src="img/avatar1.jpg" alt="People"></picture>
+									<div class="people__text">
+										<p class="people__logo">„</p>
+										<p class="people__name">Paul</p>
+										<p class="people__job">Owner in Paul.com</p>
+										<p class="people__disc">
+											Projects for many large domestic and foreign corporations, enterprises
+											in
+											many
+											elds such as nance, banking, F&B, education, communication.
+										</p>
+									</div>
+								</a>
+							</div>
+							<div class="people__slide">
+								<a href="#" class="people__link">
+									<picture><source srcset="img/avatar2.webp" type="image/webp"><img class="people__img" src="img/avatar2.jpg" alt="People"></picture>
+									<div class="people__text">
+										<p class="people__logo">„</p>
+										<p class="people__name">Robert</p>
+										<p class="people__job">Founder in Apple inc.</p>
+										<p class="people__disc">
+											Founded in 2007, Sparch is specializing in providing innovative services
+											such as
+											website design, brand identity and marketing
+										</p>
+									</div>
+								</a>
+							</div>
+							<div class="people__slide">
+								<a href="#" class="people__link">
+									<picture><source srcset="img/avatar1.webp" type="image/webp"><img class="people__img" src="img/avatar1.jpg" alt="People"></picture>
+									<div class="people__text">
+										<p class="people__logo">„</p>
+										<p class="people__name">Paul</p>
+										<p class="people__job">Owner in Paul.com</p>
+										<p class="people__disc">
+											Projects for many large domestic and foreign corporations, enterprises
+											in
+											many
+											elds such as nance, banking, F&B, education, communication.
+										</p>
+									</div>
+								</a>
+							</div>
+						</div>
+						<div class="slider-quality__pagging pagging-center"></div>
+					</div>
+				</div>
+
+	</div>
+	</section>
+	<section class="faq" id="faq">
+		<div class="container">
+			<h2 class="faq__header">FAQ</h2>
+			<ul>
+				<div class="faq__line"></div>
+				<li class="faq__item">
+					<div class="faq__visible">
+						<label class="faq__headline" for="faq_1">
+							<h3 class="faq__title">
+								The largest and oldest Quotations Page on the Web with about 30 categories
+							</h3>
+							<input class="faq__switch" id="faq_1" type="checkbox">
+							<svg class="faq__icon" width="20" height="20">
+								<use xlink:href="img/icons.svg#icon-right"></use>
+							</svg>
+							<div class="faq__hiden">
+								Sed in sem pellentesque, eleifend erat vitae, tincidunt turpis. Pellentesque
+								augue elit, rutrum sit amet commodo vel, porta quis purus. Nullam faucibus, odio
+								eu bibendum auctor, eros dolor aliquet purus, sit amet pellentesque neque est id
+								tortor. In egestas, erat a dapibus dapibus, mi augue ornare lorem, nec pretium
+								ligula purus nec tellus. Aenean a scelerisque nisi. Nullam pretium fermentum
+								nunc, feugiat placerat urna rutrum eget. Nullam mattis justo consequat risus.
+								Donec imperdiet enim id efficitur pharetra. Nam sollicitudin at est eget auctor.
+								Ut sed ante quis nulla tincidunt auctor. Quisque accumsan pretium tincidunt.
+								Etiam viverra ultrices est vitae suscipit. Pellentesque elementum purus non nisl
+								pharetra consequat. Nunc in venenatis orci.
+							</div>
+						</label>
+					</div>
+				</li>
+				<div class="faq__line"></div>
+				<li class="faq__item">
+					<div class="faq__visible">
+						<label class="faq__headline" for="faq_2">
+							<h3 class="faq__title">
+								A huge collection of inspirational quotes, thoughts of greatest minds in history
+							</h3>
+							<input class="faq__switch" id="faq_2" type="checkbox">
+							<svg class="faq__icon" width="20" height="20">
+								<use xlink:href="img/icons.svg#icon-right"></use>
+							</svg>
+							<div class="faq__hiden">
+								Sed in sem pellentesque, eleifend erat vitae, tincidunt turpis. Pellentesque
+								augue elit, rutrum sit amet commodo vel, porta quis purus. Nullam faucibus, odio
+								eu bibendum auctor, eros dolor aliquet purus, sit amet pellentesque neque est id
+								tortor. In egestas, erat a dapibus dapibus, mi augue ornare lorem, nec pretium
+								ligula purus nec tellus. Aenean a scelerisque nisi. Nullam pretium fermentum
+								nunc, feugiat placerat urna rutrum eget. Nullam mattis justo consequat risus.
+								Donec imperdiet enim id efficitur pharetra. Nam sollicitudin at est eget auctor.
+								Ut sed ante quis nulla tincidunt auctor. Quisque accumsan pretium tincidunt.
+								Etiam viverra ultrices est vitae suscipit. Pellentesque elementum purus non nisl
+								pharetra consequat. Nunc in venenatis orci.
+							</div>
+						</label>
+					</div>
+				</li>
+				<div class="faq__line"></div>
+				<li class="faq__item">
+					<div class="faq__visible">
+						<label class="faq__headline" for="faq_3">
+							<h3 class="faq__title">
+								Quotations from the great works of literature
+							</h3>
+							<input class="faq__switch" id="faq_3" type="checkbox">
+							<svg class="faq__icon" width="20" height="20">
+								<use xlink:href="img/icons.svg#icon-right"></use>
+							</svg>
+							<div class="faq__hiden">
+								Sed in sem pellentesque, eleifend erat vitae, tincidunt turpis. Pellentesque
+								augue elit, rutrum sit amet commodo vel, porta quis purus. Nullam faucibus, odio
+								eu bibendum auctor, eros dolor aliquet purus, sit amet pellentesque neque est id
+								tortor. In egestas, erat a dapibus dapibus, mi augue ornare lorem, nec pretium
+								ligula purus nec tellus. Aenean a scelerisque nisi. Nullam pretium fermentum
+								nunc, feugiat placerat urna rutrum eget. Nullam mattis justo consequat risus.
+								Donec imperdiet enim id efficitur pharetra. Nam sollicitudin at est eget auctor.
+								Ut sed ante quis nulla tincidunt auctor. Quisque accumsan pretium tincidunt.
+								Etiam viverra ultrices est vitae suscipit. Pellentesque elementum purus non nisl
+								pharetra consequat. Nunc in venenatis orci.
+							</div>
+						</label>
+					</div>
+				</li>
+				<div class="faq__line"></div>
+				<li class="faq__item">
+					<div class="faq__visible">
+						<label class="faq__headline" for="faq_4">
+							<h3 class="faq__title">
+								Read quotes and sayings from famous people in history
+							</h3>
+							<input class="faq__switch" id="faq_4" type="checkbox">
+							<svg class="faq__icon" width="20" height="20">
+								<use xlink:href="img/icons.svg#icon-right"></use>
+							</svg>
+							<div class="faq__hiden">
+								Sed in sem pellentesque, eleifend erat vitae, tincidunt turpis. Pellentesque
+								augue elit, rutrum sit amet commodo vel, porta quis purus. Nullam faucibus, odio
+								eu bibendum auctor, eros dolor aliquet purus, sit amet pellentesque neque est id
+								tortor. In egestas, erat a dapibus dapibus, mi augue ornare lorem, nec pretium
+								ligula purus nec tellus. Aenean a scelerisque nisi. Nullam pretium fermentum
+								nunc, feugiat placerat urna rutrum eget. Nullam mattis justo consequat risus.
+								Donec imperdiet enim id efficitur pharetra. Nam sollicitudin at est eget auctor.
+								Ut sed ante quis nulla tincidunt auctor. Quisque accumsan pretium tincidunt.
+								Etiam viverra ultrices est vitae suscipit. Pellentesque elementum purus non nisl
+								pharetra consequat. Nunc in venenatis orci.
+							</div>
+						</label>
+					</div>
+				</li>
+				<div class="faq__line"></div>
+				<li class="faq__item">
+					<div class="faq__visible">
+						<label class="faq__headline" for="faq_5">
+							<h3 class="faq__title">
+								Collected quotes from Albert Einstein
+							</h3>
+							<input class="faq__switch" id="faq_5" type="checkbox">
+							<svg class="faq__icon" width="20" height="20">
+								<use xlink:href="img/icons.svg#icon-right"></use>
+							</svg>
+							<div class="faq__hiden">
+								Sed in sem pellentesque, eleifend erat vitae, tincidunt turpis. Pellentesque
+								augue elit, rutrum sit amet commodo vel, porta quis purus. Nullam faucibus, odio
+								eu bibendum auctor, eros dolor aliquet purus, sit amet pellentesque neque est id
+								tortor. In egestas, erat a dapibus dapibus, mi augue ornare lorem, nec pretium
+								ligula purus nec tellus. Aenean a scelerisque nisi. Nullam pretium fermentum
+								nunc, feugiat placerat urna rutrum eget. Nullam mattis justo consequat risus.
+								Donec imperdiet enim id efficitur pharetra. Nam sollicitudin at est eget auctor.
+								Ut sed ante quis nulla tincidunt auctor. Quisque accumsan pretium tincidunt.
+								Etiam viverra ultrices est vitae suscipit. Pellentesque elementum purus non nisl
+								pharetra consequat. Nunc in venenatis orci.
+							</div>
+						</label>
+					</div>
+				</li>
+				<div class="faq__line"></div>
+			</ul>
+		</div>
+	</section>
+	</div>
+	</main>
+	</div>
+	<footer class="footer">
+		<div class="footer__line"></div>
+		<div class="footer__container">
+			<div class="logo logo__footer">
+				<a href="#" class="logo__link">
+					<p class="logo__main">
+						DubaiReality
+					</p>
+					<p class="logo__second">
+						Real Estate
+					</p>
+				</a>
+			</div>
+		</div>
+		<div class="footer__line"></div>
+		<div class="footer__container footer__ground">
+			<div class="footer__copy">
+				Copyright © 2023 Dubai Realty
+			</div>
+			<div class="social footer__contact">
+				<ul class="footer__list">
+					<li class="contact__item">
+						<a class="contact__href" href="#">
+							<svg class="icon" width="20" height="20">
+								<use xlink:href="img/icons.svg#icon-instagram"></use>
+							</svg>
+						</a>
+					</li>
+					<li class="contact__item">
+						<a class="contact__href" href="#">
+							<svg class="icon" width="20" height="20">
+								<use xlink:href="img/icons.svg#icon-twitter"></use>
+							</svg>
+						</a>
+					</li>
+					<li class="contact__item">
+						<a class="contact__href" href="#">
+							<svg class="icon" width="20" height="20">
+								<use xlink:href="img/icons.svg#icon-facebook"></use>
+							</svg>
+						</a>
+					</li>
+					<li class="contact__item">
+						<a class="contact__href" href="#">
+							<svg class="icon" width="20" height="20">
+								<use xlink:href="img/icons.svg#icon-linkedin"></use>
+							</svg>
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</footer>
+	</div>
+	<!-- 
+<div id="popup" aria-hidden="true" class="popup">
+	<div class="popup__wrapper">
+		<div class="popup__content">
+			<button data-close type="button" class="popup__close">Закрыть</button>
+			<div class="popup__text">
+			</div>
+		</div>
+	</div>
+</div>
+ -->
+
+	<script src="js/app.min.js?_v=20231216091109"></script>
+	<script type="script" src="/src/js/modal.js?_v=20231216091109"></script>
+	<script type="script" src="/src/js/contact_us_form.js?_v=20231216091109"></script>
+	<script type="script" src="/mailer.js?_v=20231216091109"></script>
+
+</body>
+
+</html>
