@@ -4084,7 +4084,7 @@
             observer: !0,
             observeParents: !0,
             slidesPerView: 1,
-            spaceBetween: 0,
+            spaceBetween: 30,
             autoHeight: !1,
             speed: 800,
             loop: !0,
@@ -4094,10 +4094,8 @@
               prevEl: ".about__more .more__item_prev",
             },
             breakpoints: {
-              400: { slidesPerView: 1, spaceBetween: 60 },
-              992: { slidesPerView: 2, spaceBetween: 60 },
+              767: { centeredSlides: !1, slidesPerView: 2, spaceBetween: 60 },
             },
-            on: {},
           });
     });
   let de = !1;
