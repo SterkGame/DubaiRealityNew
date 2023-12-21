@@ -4087,15 +4087,10 @@
             spaceBetween: 30,
             autoHeight: !1,
             speed: 800,
+            centeredSlides: !0,
             loop: !0,
             pagination: { el: ".slider-quality__pagging", clickable: !0 },
-            navigation: {
-              nextEl: ".about__more .more__item_next",
-              prevEl: ".about__more .more__item_prev",
-            },
-            breakpoints: {
-              767: { centeredSlides: !1, slidesPerView: 2, spaceBetween: 60 },
-            },
+            breakpoints: { 767: { slidesPerView: 2, spaceBetween: 60 } },
           });
     });
   let de = !1;
@@ -4134,8 +4129,10 @@
         he.classList.remove("lock"),
         he.classList.remove("menu-open");
     });
-  const ve = document.querySelector("#form");
-  document.querySelector("#send-button").addEventListener("click", (e) => {
+  const ve = document.querySelector("#form"),
+    ge = document.querySelector("#send-button"),
+    we = document.querySelector("#success");
+  ge.addEventListener("click", (e) => {
     var t;
     e.preventDefault(),
       (t = ve.elements.email.value),
@@ -4146,7 +4143,11 @@
       })
         .then((e) => e.json())
         .then((e) => {
-          console.log("Server response:", e.result);
+          console.log("Server response:", e.result),
+            we.classList.toggle("sent"),
+            setTimeout(() => {
+              we.classList.toggle("sent");
+            }, 6e3);
         })
         .catch((e) => console.error("Error:", e));
   }),

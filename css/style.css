@@ -719,9 +719,9 @@ html {
 }
 
 .contact-us__bg {
-  background-image: url("img/Contact-us-bg.jpg");
-  padding-bottom: 85px;
-  padding-top: 85px;
+  background-image: url("../img/Contact-us-bg.jpg");
+  padding-bottom: 75px;
+  padding-top: 75px;
 }
 
 .contact-us__input {
@@ -746,6 +746,20 @@ html {
 .contact-us__form {
   display: flex;
   justify-content: center;
+}
+
+.contact-us__success {
+  opacity: 0;
+  margin-top: 10px;
+  color: #272727;
+  text-align: center;
+  font-family: Work Sans;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.contact-us__success.sent {
+  opacity: 1;
 }
 
 .photo__slide {
